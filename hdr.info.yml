@@ -1,0 +1,20 @@
+name: hdr
+description: hdr theme
+type: theme
+base theme: classy
+core: 8.x
+version: VERSION
+
+regions:
+  header: Header
+  primary_menu: Primary menu
+  help: Help
+  content: Content
+  footer: Footer
+
+libraries:
+  - hdr/base
+#  - uikit/uikit-base
+#  - uikit/uikit-custom
+#  - uikit/google_fonts
+#  - uikit/highlightjs
