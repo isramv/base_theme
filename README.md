@@ -1,4 +1,4 @@
-# HDR theme.
+# Base theme.
 
 - `src` you will find the source files for the theme.
   - do not include src source files in the theme.
