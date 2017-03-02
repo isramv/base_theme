@@ -1,16 +1,23 @@
 
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
-
+// TODO: create custom variables file.
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
-@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+// @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
 
-body {
-
+// Fixes the box sizing.
+* {
+  @include box-sizing(border-box);
 }
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+
 
 
 
